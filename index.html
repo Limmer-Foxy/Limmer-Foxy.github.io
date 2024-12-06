@@ -11,10 +11,44 @@
       .container {
         font-family: Verdana;
       }
+      
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+        background-color: #AAAAAA;
+      }
+
+      .active {
+        background-color: #04AA6D;
+      }
     </style>
   </head>
   
   <body>
+    <ul>
+      <li><a class="active" href="./index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./projects.html">Projects</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
     <div class="center">
       <h1 class="container">Amanda Soh</h1>
       <p style="font-family:Verdana; font-size:14px">In the quiet intersections of numbers and narratives, I find myself drawn to the elegant symmetries of mathematics and the profound depth of the humanities.
