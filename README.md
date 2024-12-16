@@ -1,3 +1,1 @@
-# Limmer-Foxy.github.io
-
-work in progress
+## Limmer-Foxy.github.io
