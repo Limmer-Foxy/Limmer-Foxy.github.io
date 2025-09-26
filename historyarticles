@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>asy | Projects</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <style>
+      .center {
+        margin: auto;
+        width: 60%;
+      }
+      .container {
+        font-family: Verdana;
+      }
+      
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #f3f3f3;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: Verdana;
+      }
+
+      li a:hover:not(.active) {
+        background-color: #AAAAAA;
+      }
+
+      .active {
+        background-color: #ddd;
+      }
+
+      li a.split{
+        float: left;
+        background-color: #f3f3f3;
+        color: black;
+      }
+      
+      hr.solid {
+        border-top: 2px solid #bbb;
+      }
+      p.big {
+        line-height: 1.45;
+        font-family: Verdana;
+        font-size:14px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <ul>
+      <li style="float:right"><a href="./contact.html">Contact</a></li>
+      <li style="float:right"><a class="active" href="./projects.html">Projects</a></li>
+      <li style="float:right"><a href="./about.html">About</a></li>
+      <li style="float:left"><a class="split" href="./index.html"><b>asy</b></a></li>
+    </ul>
+    <div class="center">
+      <h1 class="container">History Articles</h1>
+      <p style="font-family:Verdana; font-size:14px">
+        Amanda Soh
+      </p>
+      <hr class="solid">
+      <p class="big">
+        • <a style="color:#50ABE7" href="./history articles/WWII.pdf">Outbreak of War in Europe</a>
+        • <a style="color:#50ABE7" href="./history articles/hitler.pdf">Hitler's Rise to Power</a>
+        • <a style="color:#50ABE7" href="./history articles/british_malaya.pdf">British Colonial Rule in Malaya</a>
+      </p>
+    </div>
+  </body>
+</html>
